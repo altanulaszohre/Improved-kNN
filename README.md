@@ -4,21 +4,21 @@ Improved kNN Algorithm
 
 This project introduces the Improved kNN algorithm, an enhanced version of the traditional kNN (k-Nearest Neighbors) algorithm. The Improved kNN algorithm considers cluster centers, the spread of the cluster, the number of elements in the cluster, the distance between points, and the distance to the cluster center to achieve higher accuracy and superior performance across various metrics.
 
-![image](https://github.com/user-attachments/assets/21c0e6be-f9b0-468a-a404-1fe43610c27d)
+![6](https://github.com/user-attachments/assets/9b7860d1-e5a9-4404-81e4-da6e3699bb94)
 
-![image](https://github.com/user-attachments/assets/797e180b-9f39-4022-bfb7-a6f2d5ea611f)
+![7](https://github.com/user-attachments/assets/639b27b6-4f5a-41ae-910d-aae305e921ee)
 
-![image](https://github.com/user-attachments/assets/58b50960-3069-4644-8b89-c536c8085ba4)
+![8](https://github.com/user-attachments/assets/3d201df8-f2ed-40d4-8d7a-95b137195277)
 
+![11](https://github.com/user-attachments/assets/4948137c-5c13-443c-b6ee-b7854fd48d8f)
 
-![image](https://github.com/user-attachments/assets/2e14b7d1-9b72-4a30-ac72-cfee1b9561f2)
 
 
 kNN 
 
-![image](https://github.com/user-attachments/assets/9eadceb8-a4cc-400a-a373-4373a75c0d7a)
+![image](https://github.com/user-attachments/assets/0e9fb886-8fa1-4a4c-ab08-719db0b56083)
 
 Improved  kNN
 
-![image](https://github.com/user-attachments/assets/a42c1988-9c69-47b1-abf4-d9154836df9e)
+![image](https://github.com/user-attachments/assets/5c9498bb-8992-4705-8989-c1a4d4b21f96)
 
