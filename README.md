@@ -1,6 +1,7 @@
 # Improved-kNN
 
 Improved kNN Algorithm
+
 This project introduces the Improved kNN algorithm, an enhanced version of the traditional kNN (k-Nearest Neighbors) algorithm. The Improved kNN algorithm considers cluster centers, the spread of the cluster, the number of elements in the cluster, the distance between points, and the distance to the cluster center to achieve higher accuracy and superior performance across various metrics.
 
 ![image](https://github.com/user-attachments/assets/21c0e6be-f9b0-468a-a404-1fe43610c27d)
