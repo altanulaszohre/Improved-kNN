@@ -14,7 +14,7 @@ This project introduces the Improved kNN algorithm, an enhanced version of the t
 ![image](https://github.com/user-attachments/assets/2e14b7d1-9b72-4a30-ac72-cfee1b9561f2)
 
 
-Normal 
+kNN 
 
 ![image](https://github.com/user-attachments/assets/9eadceb8-a4cc-400a-a373-4373a75c0d7a)
 
