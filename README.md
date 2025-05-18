@@ -1,103 +1,97 @@
-# Improved-kNN
+# 🤖 Text Classification with BERT
 
-An Enhanced Version of the Classic k-Nearest Neighbors Algorithm
-
-## 🔍 Overview
-
-**Improved kNN** is an advanced classification algorithm that builds upon the traditional k-Nearest Neighbors (kNN) approach. This enhanced model integrates additional cluster-based intelligence such as:
-- Cluster centroids
-- Cluster spread
-- Number of elements per cluster
-- Intra-cluster distance distribution
-- Distance from each point to its cluster center
-
-These improvements enable more accurate and robust classification results across various datasets.
+This project demonstrates how to perform **text classification** using **BERT (Bidirectional Encoder Representations from Transformers)**. The model classifies news articles into categories using a dataset (BBC news) and leverages the powerful transformer-based architecture for state-of-the-art accuracy.
 
 ---
 
-## 📊 Key Features
+## 📌 Project Highlights
 
-- 📈 Higher accuracy than standard kNN in many scenarios
-- 🧠 Uses K-Means clustering to enrich training data
-- 📉 Reduced misclassification in overlapping classes
-- 📦 Easily extendable and adaptable to your dataset
-
----
-
-## 🧪 Notebooks Included
-
-The project contains the following Jupyter notebooks:
-
-- `Dataset_Preparation_for_Improved_k-NN.ipynb`: Prepares and formats the dataset for training
-- `Labeling_Data_with_k-Means.ipynb`: Labels data based on K-Means clusters
-- `Improved_kNN.ipynb`: Main implementation of the improved algorithm
-- `create_data.ipynb`: Generates synthetic datasets for experimentation
+- Fine-tuning **BERT** for text classification tasks
+- Visual analysis of data distribution and training metrics
+- Prediction module for classifying new input texts
+- Dataset: Pre-labeled BBC news dataset
 
 ---
 
 ## 📁 Folder Structure
 
 ```
-Improved-kNN/
+Text-Classification-with-BERT/
 │
-├── Improved  k-NN/
-│   ├── data/
-│   │   ├── clustered_dataset.csv
-│   │   ├── train_set.csv
-│   │   └── ...
-│   ├── Improved_kNN.ipynb
-│   ├── Labeling_Data_with_k-Means.ipynb
-│   └── ...
+├── Code/
+│   ├── BERT_Train_Model.ipynb      # Fine-tuning BERT model on dataset
+│   ├── prediction.ipynb            # Using trained model to predict new examples
+│   └── data_visualization.ipynb    # Data distribution and EDA
+│
+├── Data/NLP/
+│   └── bbc_data.csv                # BBC News Dataset
+│
+├── trained_model/
+│   └── config.json                 # Saved BERT model config
+│
 ├── LICENSE
 └── README.md
 ```
 
 ---
 
-## 📷 Visual Results
+## 📊 Data Distribution Overview
 
-Standard kNN vs Improved kNN:
+The dataset contains news articles categorized into multiple topics such as tech, business, politics, etc.
 
-| Standard kNN | Improved kNN |
-|--------------|--------------|
-| ![kNN](https://github.com/user-attachments/assets/0e9fb886-8fa1-4a4c-ab08-719db0b56083) | ![Improved](https://github.com/user-attachments/assets/5c9498bb-8992-4705-8989-c1a4d4b21f96) |
+![Data Distribution](https://github.com/altanulaszohre/Text-Classification-with-BERT/assets/111522957/b36425a6-280d-41af-a3fd-1f2c1f0349bb)
 
-Additional Visualizations:
+![Class Distribution](https://github.com/altanulaszohre/Text-Classification-with-BERT/assets/111522957/535cc5ec-bb55-4448-9ca3-c6e0e3bbbe16)
 
-![6](https://github.com/user-attachments/assets/9b7860d1-e5a9-4404-81e4-da6e3699bb94)
-![7](https://github.com/user-attachments/assets/639b27b6-4f5a-41ae-910d-aae305e921ee)
-![8](https://github.com/user-attachments/assets/3d201df8-f2ed-40d4-8d7a-95b137195277)
-![11](https://github.com/user-attachments/assets/4948137c-5c13-443c-b6ee-b7854fd48d8f)
+---
+
+## 🏋️ Model Training Overview
+
+We fine-tune a pretrained BERT model using HuggingFace Transformers and visualize training accuracy and loss during epochs.
+
+![Training Accuracy](https://github.com/altanulaszohre/Text-Classification-with-BERT/assets/111522957/9fb5ee3f-bae8-4410-81f6-b96c4003daab)
+
+![Training Loss](https://github.com/altanulaszohre/Text-Classification-with-BERT/assets/111522957/c8a37a3f-a6d4-4bda-904d-ecc76912fbae)
+
+---
+
+## 🧪 Prediction Results
+
+The model can accurately classify new examples into the correct category.
+
+![Prediction](https://github.com/altanulaszohre/Text-Classification-with-BERT/assets/111522957/cc7ae654-fc88-4b17-b613-d169e77a58ae)
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Improved-kNN.git
-   cd Improved-kNN
+   git clone https://github.com/yourusername/Text-Classification-with-BERT.git
+   cd Text-Classification-with-BERT/Code
    ```
 
-2. Open the Jupyter Notebooks in the `Improved  k-NN` folder:
+2. Install required libraries:
    ```bash
-   jupyter notebook
+   pip install transformers torch scikit-learn pandas matplotlib
    ```
 
-3. Run the notebooks in the following order:
-   - `create_data.ipynb`
-   - `Dataset_Preparation_for_Improved_k-NN.ipynb`
-   - `Labeling_Data_with_k-Means.ipynb`
-   - `Improved_kNN.ipynb`
+3. Open and run the notebooks in the following order:
+   - `data_visualization.ipynb`
+   - `BERT_Train_Model.ipynb`
+   - `prediction.ipynb`
 
 ---
 
 ## 📄 License
 
-This project is licensed under the terms of the [MIT License](./LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
 
 ---
 
-## 🤝 Contributions
+## 🙌 Acknowledgments
 
-Feel free to fork, open issues or submit pull requests. Contributions are welcome!
+Thanks to:
+- [HuggingFace Transformers](https://huggingface.co/transformers/)
+- [PyTorch](https://pytorch.org/)
+- The BBC dataset provider
