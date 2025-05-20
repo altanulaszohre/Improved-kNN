@@ -101,3 +101,7 @@ This project is licensed under the terms of the [MIT License](./LICENSE).
 ## 🤝 Contributions
 
 Feel free to fork, open issues or submit pull requests. Contributions are welcome!
+
+
+
+***Altan Ulaş Zöhre***
